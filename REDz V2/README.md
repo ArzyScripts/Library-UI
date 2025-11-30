@@ -3,7 +3,7 @@ This documentation is for A Stable Release Of REDz V2
 
 ## Load REDz V2
 ```lua
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArzyScripts/Library-UI/main/REDz%20V2/Library.lua"))()
 ```
 
 ## Creating a REDz V2
