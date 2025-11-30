@@ -3,7 +3,7 @@ Simple, Clean, Fresh, Friendly Interface By Jan & Wally
 
 ## Set-up The Library Loadstring
 ```lua
-local Galaxy = loadstring(game:HttpGet("", true))()
+local Galaxy = loadstring(game:HttpGet("https://raw.githubusercontent.com/ArzyScripts/Library-UI/main/Galaxy%20Library/LibraryUI.lua", true))()
 ```
 
 ## Creating an Window
