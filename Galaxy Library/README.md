@@ -19,9 +19,9 @@ local Folder = Window:AddFolder("Folder")
 ## Creating an Button
 ```lua
 local Button = Folder:AddButton({
-	Text = "This is An Button",
-	Flag = "button",
-	Callback = function()
+	text = "This is An Button",
+	flag = "button",
+	callback = function()
 	   print("Clicked")
   end
 })
@@ -30,9 +30,9 @@ local Button = Folder:AddButton({
 ## Adding Toggle
 ```lua
 local Toggle = Folder:AddToggle({
-	Text = "Toggle",
-	Flag = "toggle",
-	Callback = function(Value)
+	text = "Toggle",
+	flag = "toggle",
+	callback = function(Value)
 	   print("Toggled")
   end
 })
@@ -41,12 +41,12 @@ local Toggle = Folder:AddToggle({
 ## Creating an Slider
 ```lua
 local Slider = Folder:AddSlider({
-	Text = "FOV",
-	Min = 70,
-	Max = 170,
-	Dual = true,
-	Type = "slider",
-	Callback = function(Value)
+	text = "FOV",
+	min = 70,
+	max = 170,
+	dual = true,
+	type = "slider",
+	callback = function(Value)
 	   print("Slided")
   end
 })
@@ -55,11 +55,11 @@ local Slider = Folder:AddSlider({
 ## Creating an Dropdown
 ```lua
 local Dropdown = Folder:AddList({
-    Text = "Pick a Number",
-    Values = {"One", "Two", "Three"},
-    Open = false,
-    Flag = "number_option"
-    Callback = function(Value)
+    text = "Pick a Number",
+    values = {"One", "Two", "Three"},
+    open = false,
+    flag = "number_option"
+    callback = function(Value)
         print("Selected number:", Value)
     end
 })
@@ -67,16 +67,16 @@ local Dropdown = Folder:AddList({
 
 ## Creating an Label
 ```lua
-local Label = Folder:AddLabel({Text = "An Interface Made By Jan & Wally", Type = "label"})
+local Label = Folder:AddLabel({text = "An Interface Made By Jan & Wally", type = "label"})
 ```
 
 ## Creating an Bind
 ```lua
 local Keybind = Folder:AddBind({
-    Text = "Keybind",
-    Key = "LeftControl",
-    Hold = false,
-    Callback = function()
+    text = "Keybind",
+    key = "LeftControl",
+    hold = false,
+    callback = function()
       print("Keybind had been set")
     end
 })
@@ -85,10 +85,10 @@ local Keybind = Folder:AddBind({
 ## Creating an Colorpicker
 ```lua
 local Colorpicker = Folder:AddColor({
-	Text = "Color Picker",
-	Flag = "color",
-	Type = "color",
-	Callback = function(Value)
+	text = "Color Picker",
+	flag = "color",
+	type = "color",
+	callback = function(Value)
 	   print("You have picked a color")
   end
 })
